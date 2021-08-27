@@ -1,0 +1,29 @@
+2021-08-27 21:58:23,255 INFO o.s.b.StartupInfoLogger [main] Starting CustomerWSRunner on W-2WZYX33 with PID 44412 (C:\Users\I542324\Documents\eclipse-oxygen\eclipse\workspace\soap-service\target\classes started by I542324 in C:\Users\I542324\Documents\eclipse-oxygen\eclipse\workspace\soap-service)
+2021-08-27 21:58:23,261 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-08-27 21:58:23,313 INFO o.s.c.s.AbstractApplicationContext [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fdbe764: startup date [Fri Aug 27 21:58:23 IST 2021]; root of context hierarchy
+2021-08-27 21:58:23,583 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 5.4.1.Final
+2021-08-27 21:58:24,174 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'northwind.config.WebServiceConfig' of type [northwind.config.WebServiceConfig$$EnhancerBySpringCGLIB$$e075d90c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-27 21:58:24,183 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e47fe98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-27 21:58:24,225 INFO o.s.w.s.a.s.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-08-27 21:58:25,196 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2021-08-27 21:58:25,360 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 2050 ms
+2021-08-27 21:58:25,568 INFO o.s.b.w.s.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'messageDispatcherServlet' to [/service/*]
+2021-08-27 21:58:25,570 INFO o.s.b.w.s.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2021-08-27 21:58:25,573 INFO o.s.b.w.s.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-27 21:58:25,573 INFO o.s.b.w.s.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-27 21:58:25,573 INFO o.s.b.w.s.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-27 21:58:25,574 INFO o.s.b.w.s.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-27 21:58:26,086 INFO o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fdbe764: startup date [Fri Aug 27 21:58:23 IST 2021]; root of context hierarchy
+2021-08-27 21:58:26,172 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-27 21:58:26,173 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-27 21:58:26,202 INFO o.s.w.s.h.AbstractUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-27 21:58:26,203 INFO o.s.w.s.h.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-27 21:58:26,246 INFO o.s.w.s.h.AbstractUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-27 21:58:26,442 INFO o.s.j.e.MBeanExporter [main] Registering beans for JMX exposure on startup
+2021-08-27 21:58:26,548 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8888 (http)
+2021-08-27 21:58:26,555 INFO o.s.b.StartupInfoLogger [main] Started CustomerWSRunner in 3.641 seconds (JVM running for 4.486)
+2021-08-27 21:58:32,930 INFO o.s.w.s.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'messageDispatcherServlet': initialization started
+2021-08-27 21:58:32,934 INFO o.s.w.s.s.SaajSoapMessageFactory [http-nio-8888-exec-1] Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-08-27 21:58:32,949 INFO o.s.w.s.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'messageDispatcherServlet': initialization completed in 19 ms
+2021-08-27 21:58:33,085 INFO o.s.w.s.FrameworkServlet [http-nio-8888-exec-2] FrameworkServlet 'dispatcherServlet': initialization started
+2021-08-27 21:58:33,120 INFO o.s.w.s.FrameworkServlet [http-nio-8888-exec-2] FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
